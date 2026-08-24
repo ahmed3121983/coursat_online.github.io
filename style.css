@@ -308,7 +308,11 @@ hr{
   header {
     margin-left: 1rem;
     margin-right: 1rem;
-    margin-top: -6rem;
+    margin-bottom: 0.1rem;
+    transform: translateY(-10rem);
+  }
+  .hr {
+    transform: translateY(-10rem);
   }
   .navigation ul li{
     font-size: 90%;
@@ -317,30 +321,34 @@ hr{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-top: -0.2rem;
+    transform: translateY(-15rem)
   }
   .heroimage {
     scale: 70%;
-    margin-top: -7.2rem;
+    transform: translateY(-10rem)
   }
   .name,
   .title {
     font-size: 2rem;
   }
   .arrow {
-    display: none;
+    scale: 70%;
+    margin-left: 15px;
+    transform: translate(-16.5rem, -1rem);
+    
   }
   .aboutme {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    transform: translateY(-17rem)
   }
   .textcontainer {
     align-items: center;
     margin: 0rem 5rem;
     gap: 1rem;
     order: 1;
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
   .aboutname,
   .abouttitle {
@@ -356,6 +364,7 @@ hr{
   .works {
     padding: 0;
     background-image: none;
+    transform: translateY(-20rem)
   }
   .workscontainer {
     padding: 5rem 0rem;
@@ -369,12 +378,11 @@ hr{
     justify-content: center;
     flex-direction: row-reverse;
     gap: 0.5rem;
-    margin-bottom: -19rem;
   }
   .contactcontainer {
     margin: 10rem 5rem;
     gap: 2rem;
-    margin-bottom: -0.5rem;
+    transform: translateY(-15rem)
   }
   .contact {
     flex-direction: column;
@@ -387,8 +395,12 @@ hr{
     gap: 15px;
   }
 
+  .hr2 {
+    transform: translateY(-25rem)
+  }
+
   .foot{
-    margin-bottom: -20rem;
+    margin-top: -25rem;
     font-size: 70%;
   }
 }
